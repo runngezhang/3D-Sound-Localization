@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T07:57:01.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="i69c35u8UL7GmC6qfz73" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T08:50:58.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="S21g0aH9w_d94Etdap-3" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="NeedMorePlayData" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
@@ -44,6 +44,77 @@
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-0" value="resonance_audio_handle" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="130" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-1" value="destroyResonanceAudioObj()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="380" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-2" value="cid3DEnableMap.clear()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;resonance_audio_config_.nChannels = 2;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.samplesPerSec = 48000;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.rendering_mode_ = RenderingMode::kBinauralHighQuality;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.distance_rolloff_model_ = DistanceRolloffModel::kNone;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.min_distance_ = 1.0f;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.max_distance_ = 100.0f;&lt;br/&gt;&amp;nbsp; ReflectionProperties reflction_prop_;&lt;br/&gt;&amp;nbsp; ReverbProperties reverb_props_;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.room_effects_flag_ = false;&amp;nbsp;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.enable_flag_ = false;&amp;nbsp;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.config_render_mode_ = 0;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.config_room_effects_ = false;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.room_effects_configed_ = false;&lt;br/&gt;&amp;nbsp; resonance_audio_config_.render_mode_configed_ = false;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="15" width="570" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-5" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njIZdfOXN2KkMIvHov4E-6" target="njIZdfOXN2KkMIvHov4E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-6" value="RecordedDataIsAvailable" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-7" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njIZdfOXN2KkMIvHov4E-9" target="njIZdfOXN2KkMIvHov4E-13">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njIZdfOXN2KkMIvHov4E-9" target="njIZdfOXN2KkMIvHov4E-10">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-9" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-10" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-11" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njIZdfOXN2KkMIvHov4E-13" target="njIZdfOXN2KkMIvHov4E-14">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-12" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="njIZdfOXN2KkMIvHov4E-13" target="njIZdfOXN2KkMIvHov4E-15">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-13" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="620" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-14" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-15" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-16" value="resonance_audio_config_" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="460" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-17" value="destroyResonanceAudioObj()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="710" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-18" value="cid3DEnableMap.clear()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="750" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;struct ResonanceAudioConfig {&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&amp;nbsp; ResonanceAudioConfig();&lt;br/&gt;&amp;nbsp; ~ResonanceAudioConfig();&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;size_t nChannels;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;uint32_t samplesPerSec;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;std::map&amp;lt;uint64_t,std::map&amp;lt;uint64_t,source_id_property&amp;gt;&amp;gt; source_id_list;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;RenderingMode rendering_mode_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;DistanceRolloffModel distance_rolloff_model_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;float min_distance_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;float max_distance_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ReflectionProperties reflction_prop_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ReverbProperties reverb_props_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool room_effects_flag_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool enable_flag_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool config_room_effects_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int config_render_mode_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool room_effects_configed_;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool render_mode_configed_;&lt;br/&gt;&amp;nbsp; float speaker_position_info_[7] = { 0.0f };&lt;br/&gt;&amp;nbsp; float spatial_position_info_[7] = { 0.0f };&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int32_t room_info_[4]= { 15, 24, 13, 0 };&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool update_position_ = false;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool update_room_info_ = false;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int32_t info_send_counter = 0;&lt;br/&gt;};&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1130" y="120" width="480" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-20" value="resonance_audio_config_" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="njIZdfOXN2KkMIvHov4E-21" value="ResonanceAudioApi" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="90" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
